@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { PortfolioDataType } from '../types/dataType';
 import weatherMain from '@images/weatherMain.png';
 import weather from '@images/weather.png';
+import PrevBtn from '@/layout/PrevBtn';
 
 const WeatherPage: React.FC = () => {
   const [data, setData] = useState<PortfolioDataType>();
@@ -52,7 +53,7 @@ const WeatherPage: React.FC = () => {
             </p>
             <div>
               <p className='font-bold text-base mb-1 xxs:text-xs xs:text-xs'>
-                Github.{' '}
+                Github.
               </p>
               <a
                 className='text-blue-600 xxs:text-xs sm:text-sm xs:text-xs'
@@ -63,7 +64,7 @@ const WeatherPage: React.FC = () => {
             </div>
             <div>
               <p className=' font-bold text-base mb-1 xxs:text-xs xs:text-xs'>
-                Video.{' '}
+                Video.
               </p>
               <a
                 className='text-blue-600 xxs:text-xs sm:text-sm xs:text-xs'
@@ -91,6 +92,7 @@ const WeatherPage: React.FC = () => {
           </div>
         </div>
       </div>
+      <PrevBtn />
     </>
   );
 };

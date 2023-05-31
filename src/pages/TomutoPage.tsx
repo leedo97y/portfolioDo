@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { PortfolioDataType } from '../types/dataType';
 import tomatoMain from '@images/tomatoMain.png';
 import tomuto from '@images/tomuto.png';
+import PrevBtn from '@/layout/PrevBtn';
 
 const TomatoMusicPage: React.FC = () => {
   const [data, setData] = useState<PortfolioDataType>();
@@ -55,7 +56,10 @@ const TomatoMusicPage: React.FC = () => {
               <p className='font-bold text-base mb-1 xxs:text-sm sm:text-base xs:text-sm'>
                 Github.
               </p>
-              <a className='text-sky-600 xxs:text-xs sm:text-sm xs:text-xs'>
+              <a
+                href={data?.project[4].repoUrl}
+                className='text-sky-600 xxs:text-xs sm:text-sm xs:text-xs'
+              >
                 {data?.project[4].repoUrl}
               </a>
             </div>
@@ -63,7 +67,10 @@ const TomatoMusicPage: React.FC = () => {
               <p className=' font-bold text-base mb-1 xxs:text-sm sm:text-base xs:text-sm'>
                 WebSite.
               </p>
-              <a className='text-sky-600 xxs:text-xs sm:text-sm xs:text-xs'>
+              <a
+                href={data?.project[4].webUrl}
+                className='text-sky-600 xxs:text-xs sm:text-sm xs:text-xs'
+              >
                 {data?.project[4].webUrl}
               </a>
             </div>
@@ -86,6 +93,7 @@ const TomatoMusicPage: React.FC = () => {
           </div>
         </div>
       </div>
+      <PrevBtn />
     </>
   );
 };
