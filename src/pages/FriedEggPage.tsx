@@ -60,7 +60,7 @@ const FriedEggPage: React.FC = () => {
                 href={data?.project[1].repoUrl}
                 className='text-blue-600 xxs:text-xs xs:text-xs'
               >
-                {data?.project[1].repoUrl}
+                FriedEgg Repository
               </a>
             </div>
             <div>

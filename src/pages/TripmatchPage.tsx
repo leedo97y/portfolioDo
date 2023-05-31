@@ -59,7 +59,7 @@ const TripmatchPage: React.FC = () => {
                 href={data?.project[3].repoUrl}
                 className='text-sky-600 xxs:text-xs sm:text-sm xs:text-xs'
               >
-                {data?.project[3].repoUrl}
+                TripMatch Repository
               </a>
             </div>
             <div>
@@ -70,7 +70,7 @@ const TripmatchPage: React.FC = () => {
                 className='text-sky-600 xxs:text-xs sm:text-sm xs:text-xs'
                 href={data?.project[3].webUrl}
               >
-                TripMatch Site
+                TripMatch Website
               </a>
             </div>
             <div>

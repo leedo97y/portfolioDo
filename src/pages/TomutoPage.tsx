@@ -60,7 +60,7 @@ const TomatoMusicPage: React.FC = () => {
                 href={data?.project[4].repoUrl}
                 className='text-sky-600 xxs:text-xs sm:text-sm xs:text-xs'
               >
-                {data?.project[4].repoUrl}
+                Tomuto Repository
               </a>
             </div>
             <div>

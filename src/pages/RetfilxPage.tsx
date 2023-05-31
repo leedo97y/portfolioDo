@@ -59,7 +59,7 @@ const RetfilxPage: React.FC = () => {
                 href={data?.project[2].repoUrl}
                 className='text-blue-600 xxs:text-xs sm:text-sm xs:text-xs'
               >
-                {data?.project[2].repoUrl}
+                Retfilx Repository
               </a>
             </div>
             <div>
