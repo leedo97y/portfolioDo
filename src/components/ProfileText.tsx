@@ -7,9 +7,7 @@ const ProfileText: React.FC = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const fetchData = await fetch('../../public/data.json').then((res) =>
-          res.json(),
-        );
+        const fetchData = await fetch('/data.json').then((res) => res.json());
 
         if (fetchData) {
           setData(fetchData);
