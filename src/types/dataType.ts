@@ -1,5 +1,5 @@
 export interface PortfolioDataType {
-  title: ResumeTitleType;
+  resumeTitle: ResumeTitleType;
   information: InformationType;
   project: ProjectType[];
   certificate: CertificateType[];
