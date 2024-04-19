@@ -9,6 +9,17 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    borderWidth: {
+      DEFAULT: '1px',
+      0.5: '0.5px',
+      0: '0',
+      2: '2px',
+      3: '3px',
+      4: '4px',
+      5: '5px',
+      6: '6px',
+      8: '8px',
+    },
     screens: {
       xxs: { min: '0px', max: '449px' },
       xs: { min: '450px', max: '649px' },

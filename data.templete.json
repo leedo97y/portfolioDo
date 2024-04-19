@@ -13,16 +13,30 @@
       { "id": 2, "name": "Blog", "href": "" }
     ]
   },
-
+  "introductionText": {
+    "mainText": "",
+    "baseText": [
+      {
+        "baseMainText": "",
+        "baseSubText": [""]
+      },
+      {
+        "baseMainText": "",
+        "baseSubText": ["", ""]
+      }
+    ]
+  },
   "workExperience": [
     {
       "id": 0,
       "name": "",
       "position": "",
-      "period": ["", ""]
+      "period": ["", ""],
+      "project": {
+        "name": ""
+      }
     }
   ],
-
   "project": [
     {
       "id": 0,
@@ -40,7 +54,6 @@
       "stack": ["", "", ""]
     }
   ],
-
   "activity": [
     {
       "id": 0,

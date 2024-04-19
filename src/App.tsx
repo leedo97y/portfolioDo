@@ -7,12 +7,14 @@ import TripmatchPage from './pages/TripmatchPage';
 import RetfilxPage from './pages/RetfilxPage';
 import FriedEggPage from './pages/FriedEggPage';
 import WeatherPage from './pages/WeatherPage';
+import ShinwooPage from './pages/ShinwooPage';
 
 function App() {
   return (
     <div className='w-full h-screen box-border'>
       <Routes>
         <Route path='/' element={<Portfolio />} />
+        <Route path='/shinwoo' element={<ShinwooPage />} />
         <Route path='/tomuto' element={<TomutoPage />} />
         <Route path='/tripmatch' element={<TripmatchPage />} />
         <Route path='/retfilx' element={<RetfilxPage />} />

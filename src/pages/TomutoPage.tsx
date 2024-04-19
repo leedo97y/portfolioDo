@@ -35,10 +35,10 @@ const TomatoMusicPage: React.FC = () => {
             />
             <div>
               <h1 className='font-bold text-4xl mb-1.5 xxs:text-xl sm:text-2xl xs:text-xl'>
-                {data?.project[4].name}
+                {data?.project[3].name}
               </h1>
               <p className='text-sm text-slate-400 xxs:text-xs xxs:-mt-1 sm:text-sm sm:-mt-1 xs:text-xs xs:-mt-1'>
-                {data?.project[4].period[0]} - {data?.project[4].period[1]}
+                {data?.project[3].period[0]} - {data?.project[3].period[1]}
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ const TomatoMusicPage: React.FC = () => {
                 Github.
               </p>
               <a
-                href={data?.project[4].repoUrl}
+                href={data?.project[3].repoUrl}
                 className='text-sky-600 xxs:text-xs sm:text-sm xs:text-xs'
               >
                 Tomuto Repository
@@ -68,10 +68,10 @@ const TomatoMusicPage: React.FC = () => {
                 WebSite.
               </p>
               <a
-                href={data?.project[4].webUrl}
+                href={data?.project[3].webUrl}
                 className='text-sky-600 xxs:text-xs sm:text-sm xs:text-xs'
               >
-                {data?.project[4].webUrl}
+                {data?.project[3].webUrl}
               </a>
             </div>
           </div>
@@ -80,7 +80,7 @@ const TomatoMusicPage: React.FC = () => {
               기술 스택
             </p>
             <div className='xxs:text-xs sm:text-sm xs:text-xs'>
-              {data?.project[4].stack.join(', ')}
+              {data?.project[3].stack.join(', ')}
             </div>
           </div>
           <div className='flex flex-col justify-center gap-5'>
@@ -88,7 +88,7 @@ const TomatoMusicPage: React.FC = () => {
               프로젝트 설명
             </p>
             <div className='flex flex-col w-full gap-2 leading-7 whitespace-pre-wrap xxs:text-xs sm:text-sm xs:text-xs'>
-              {data?.project[4].description}
+              {data?.project[3].description}
             </div>
           </div>
         </div>
