@@ -14,7 +14,6 @@ export interface ResumeTitleType {
 
 export interface InformationType {
   name: string;
-  address: string;
   birth: string;
   contact: ContactType[];
   introductionText: IntroductionType;

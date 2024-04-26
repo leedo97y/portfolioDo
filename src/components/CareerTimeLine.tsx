@@ -23,7 +23,7 @@ const CareerTimeLine = () => {
 
   return (
     <div className='flex flex-row gap-5 justify-center box-border w-min h-fit m-5 sm:m-2 sm:w-min sm:gap-2 md:w-min md:m-4 md:gap-4 xs:w-min xs:gap-2 xs:flex-col xs:items-start xxs:w-[100%] xxs:gap-2 xxs:flex-col xxs:items-start'>
-      <ol className=' w-full mr-20 sm:w-full sm:-mr-10 md:w-full md:mr-12 xs:w-full xxs:w-full'>
+      <ol className=' w-full mr-20 sm:w-full sm:-mr-10 md:w-full md:mr-12 xs:w-full xxs:w-full xxs:mr-0'>
         {/* <!--First item--> */}
         <li>
           <div className='grid grid-flow-col gap-2 xs:gap-0 xxs:gap-0'>
@@ -40,7 +40,7 @@ const CareerTimeLine = () => {
               </span>
               <div className='flex flex-row gap-3 mt-3'>
                 <Link
-                  className='w-[7%]'
+                  className='w-[7%] xxs:w-[10%]'
                   to={'https://github.com/ShinwooDev/Shinwoo_FE'}
                 >
                   <img src={Github} width={'100%'} height={'100%'} />

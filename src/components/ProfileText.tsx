@@ -35,12 +35,6 @@ const ProfileText: React.FC = () => {
           {data?.information.birth}
         </span>
       </div>
-      <div className='flex flex-row justify-between'>
-        <p className='xs:mr-28 xxs:mr-20'>Address.</p>
-        <span className='ml-5 text-base font-medium sm:text-xs md:text-sm xs:text-xs xxs:text-[10px]'>
-          {data?.information.address}
-        </span>
-      </div>
 
       <div className='flex flex-row justify-between'>
         <p className='xs:mr-28 xxs:mr-20'>Email.</p>

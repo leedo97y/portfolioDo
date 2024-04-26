@@ -5,7 +5,6 @@
 
   "information": {
     "name": "",
-    "address": "",
     "birth": "",
     "contact": [
       { "id": 0, "name": "Email", "href": "", "isEmail": true },
